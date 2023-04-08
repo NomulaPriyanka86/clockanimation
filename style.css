@@ -23,9 +23,9 @@
     border-radius: 10px;
     left: 200px;
     top: 50px;
-    animation:hourNeedle 60s infinite;
+    animation:hourNeedle 120s infinite;
     transform-origin: bottom center;
-    animation-timing-function: linear;
+    animation-timing-function: linear
 }
 
 @keyframes hourNeedle {
@@ -42,7 +42,7 @@
     border-radius: 10px;
     left: 200px;
     top: 10px;
-    animation:minuteNeedle 30s infinite;
+    animation:minuteNeedle 50s infinite;
     transform-origin: bottom center;
     animation-timing-function: linear;
 }
