@@ -42,11 +42,29 @@
     border-radius: 10px;
     left: 200px;
     top: 10px;
-    animation:minuteNeedle 8s infinite;
+    animation:minuteNeedle 30s infinite;
     transform-origin: bottom center;
     animation-timing-function: linear;
 }
 @keyframes minuteNeedle {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg );}
+    
+}
+.second
+{
+    position: absolute;
+    background-color: red;
+    width: 3px;
+    height: 190px;
+    border-radius: 10px;
+    left: 200px;
+    top: 10px;
+    animation:secondNeedle 6s infinite;
+    transform-origin: bottom center;
+    animation-timing-function: linear;
+}
+@keyframes secondNeedle {
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg );}
     
